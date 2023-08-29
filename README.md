@@ -1,6 +1,6 @@
 # Data Analysis Projects
 
-This repository contains a collection of Python scripts for analyzing various datasets. These datasets range from public health data to economic indicators. Below are the details of the current Python scripts available in this repository.
+This repository contains a collection of Python scripts for analyzing various datasets. These datasets range from public health data to economic indicators. Below are the details of the current Python scripts available in this repository. Sample data is in the data folder.
 
 ## Table of Contents
 
@@ -11,19 +11,14 @@ This repository contains a collection of Python scripts for analyzing various da
   - [da001.py](#da001py)
   - [da002.py](#da002py)
   - [da003.py](#da003py)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
-## Getting Started
 
 ### Prerequisites
 
 - Python 3.x
 - Pandas library
 - NumPy library
-
-### Installation
+- Scipy library
+- Matplotlib library
 
 ## Scripts
 
@@ -35,8 +30,6 @@ This repository contains a collection of Python scripts for analyzing various da
 
 This script analyzes the leading causes of death in New York City and provides statistical insights.
 
----
-
 ### da002.py
 
 - **Data:** Retail Food Stores in New York State
@@ -45,13 +38,11 @@ This script analyzes the leading causes of death in New York City and provides s
 
 This script analyzes the distribution of retail food stores in New York State.
 
----
-
 ### da003.py
 
 - **Data:** COVID-19 Tests, Cases, and Deaths by Town (Connecticut)
 - **URL:** [COVID-19 Tests, Cases, and Deaths](https://data.ct.gov/Health-and-Human-Services/COVID-19-Tests-Cases-and-Deaths-By-Town-ARCHIVE/28fr-iqnx)
 - **File:** `COVID-19_Tests__Cases__and_Deaths__By_Town__-_ARCHIVE.csv`
 
-This script provides a detailed analysis of COVID-19 tests, cases, and deaths by town in Connecticut.
+This script provides analysis of COVID-19 tests, cases, and deaths by town in Connecticut.
 
