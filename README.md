@@ -11,6 +11,7 @@ This repository contains a collection of Python scripts for analyzing various da
   - [da001.py](#da001py)
   - [da002.py](#da002py)
   - [da003.py](#da003py)
+  - [da004.py](#da004py)
 
 ### Prerequisites
 
@@ -19,6 +20,7 @@ This repository contains a collection of Python scripts for analyzing various da
 - NumPy library
 - Scipy library
 - Matplotlib library
+- cuML - RAPIDS Machine Learning Library
 
 ## Scripts
 
