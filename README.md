@@ -46,3 +46,10 @@ This script analyzes the distribution of retail food stores in New York State.
 
 This script provides analysis of COVID-19 tests, cases, and deaths by town in Connecticut.
 
+### da004.py
+
+- **Data:** New York City Civil Service List
+- **URL:** [New York City Civil Service List](https://data.cityofnewyork.us/City-Government/Civil-Service-List-Active-/vx8i-nprf)
+- **File:** `Civil_Service_List__Active_.csv`
+
+This script provides analysis of New York City's Civil Service List.
