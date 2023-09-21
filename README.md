@@ -1,6 +1,6 @@
 # Data Analysis Projects
 
-This repository contains a collection of Python scripts for analyzing various datasets. These datasets range from public health data to economic indicators. Below are the details of the current Python scripts available in this repository. Sample data is in the data folder.
+A collection of data analysis Python codes using public data sets, ranging from health data to economic indicators. Below are the details of the current Python scripts available in this repository. Sample data is in the data folder.
 
 ## Table of Contents
 
