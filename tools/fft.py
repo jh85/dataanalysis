@@ -29,8 +29,8 @@ def main():
     ffts1 = np.fft.fft(data)
     iffts1 = np.fft.ifft(ffts1)
 
-    ffts2 = np.fft.fft(data)
-    iffts2 = np.fft.ifft(ffts2)
+    ffts2 = myfft(data)
+    iffts2 = myifft(ffts2)
 
     print(np.allclose(ffts1, ffts2))
 
