@@ -13,6 +13,7 @@ A collection of data analysis Python codes using public data sets, ranging from 
   - [da003.py](#da003py)
   - [da004.py](#da004py)
   - [da005.py](#da005py)
+  - [da006.py](#da006py)
 
 ### Prerequisites
 
@@ -22,6 +23,7 @@ A collection of data analysis Python codes using public data sets, ranging from 
 - Scipy library
 - Matplotlib library
 - cuML - RAPIDS Machine Learning Library
+- geopandas
 
 ## Scripts
 
@@ -64,3 +66,14 @@ This script provides analysis of New York City's Civil Service List.
 - **File:** `hhpub20.csv (included in asecpub20csv.zip)`
 
 This script provides analysis of 2020 ASES result.
+
+### da006.py
+
+- **Data:** Iowa environment Mesonet
+- **URL:** [Mesonet](https://mesonet.agron.iastate.edu/)
+- **Data:** National Centers for Environmental Information (NCEI)
+- **URL:** [NCEI](https://www.ncei.noaa.gov/)
+- **Data:** Japan Meteorological Agency
+- **URL:** [JMA](https://www.jma.go.jp/jma/)
+
+This script provides analysis of temperature, atmospheric pressure, and wind speed.
