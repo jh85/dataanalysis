@@ -27,12 +27,12 @@ AIRPORT_LIST = f"{DATA_PATH}/airports.csv"
 # Available data 2000 ~ 2023
 US_AIRPORTS = ["BIS","HON","GFK","LNK","DDC","GRI","MLI","PAKN","SAN","EVV","INL","DEN",
                "TOL","TYS","ABI","GNV","MSO","SHR","IPT","SGF","LAS","FAT","FSM","SMX",
-               "MEM","ABQ","TOL","PNS","PGUM","ATL","BWI","BTR","PABT","BHM","BOI","BIL",
+               "MEM","ABQ","BRO","PNS","PGUM","ATL","BWI","BTR","PABT","BHM","BOI","BIL",
                "BUF","BTV","CPR","CHS","CRW","CLT","ORD","CVG","COS","CMH","DFW","HSE",
                "IAD","ELP","GGW","BDR","PHNL","CAR","IAH","IND","JAN","JFK","EYW","LIT",
                "BOS","LAX","PHTO","LEB","MKE","MSP","BNA","EWR","NEW","OKC","OMA","SEA",
                "PHL","PHX","ELY","PDX","PVD","SLC","TJSJ","FSD","STL","PABR","DCA","ICT",
-               "ILG","WMC","ORH","BRO"]
+               "ILG","WMC","ORH"]
 # Available data 2005 ~ 2023
 US_AIRPORTS2 = ["AIA","BZN","PAE","HFD","HUL","LAR","LXV","LOU","MHT","MOT","VUO","PHP",
                 "PIR","MBS","PATA","PAWI","PAYA","VIH","BCE","CDC","RDM","P68","SNS",
@@ -1241,7 +1241,7 @@ def calc_pressure_mean():
     for c in US_AIRPORTS + US_AIRPORTS2:
         if c in df.name.values:
             continue
-        data_type = "pres3"
+        data_type = "pres1"
         graph_title = "Pressure (hPa)"
         bad_threshold = 4000
         print(f"++++++++++ Processing location:{c} data:{data_type} ++++++++++")
